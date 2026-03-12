@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using NewHorizons.Handlers;
+using NewHorizons.Components.Props;
 
 namespace DeepBramble.BaseInheritors
 {
-    public class GravCrystalItem : OWItem
+    public class GravCrystalItem : NHItem
     {
         public bool intact { get; private set; } = true;
 
@@ -18,7 +19,17 @@ namespace DeepBramble.BaseInheritors
         public override void Awake()
         {
             base.Awake();
-            _type = ItemType.Lantern;
+            _localDropOffset = new Vector3(0, -0.07f, 0);
+
+            _type = DeepBramble.GravityCrystalItemType;
+
+            // UI translation
+            DisplayName = "Gravity Crystal";
+
+            PickupAudio = AudioType.Lantern_Pickup;
+            DropAudio = AudioType.Lantern_Drop;
+            SocketAudio = AudioType.Lantern_Insert;
+            UnsocketAudio = AudioType.Lantern_Remove;
 
             //Grab components
             intactRenderer = transform.Find("intact_renderer").GetComponent<MeshRenderer>();
@@ -63,16 +74,6 @@ namespace DeepBramble.BaseInheritors
         }
 
         /**
-         * Gives the display name of the item
-         * 
-         * @return The display name, as a string
-         */
-        public override string GetDisplayName()
-        {
-            return TranslationHandler.GetTranslation("Gravity Crystal", TranslationHandler.TextType.UI);
-        }
-
-        /**
          * Makes a new GravCrystalItem on the given transform. Object should have the expected hierarchy
          * 
          * @param tf The transform of the base object
@@ -80,7 +81,6 @@ namespace DeepBramble.BaseInheritors
         public static void MakeItem(Transform tf)
         {
             GravCrystalItem item = tf.gameObject.AddComponent<GravCrystalItem>();
-            item._localDropOffset = new Vector3(0, -0.07f, 0);
         }
     }
 }

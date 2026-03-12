@@ -1,9 +1,11 @@
-﻿using NewHorizons.Handlers;
+﻿using NewHorizons;
+using NewHorizons.Components.Props;
+using NewHorizons.Handlers;
 using UnityEngine;
 
 namespace DeepBramble.BaseInheritors
 {
-    public class InjectorItem : OWItem
+    public class InjectorItem : NHItem
     {
         /**
          * Need to set up a couple of things when the object wakes up
@@ -11,17 +13,18 @@ namespace DeepBramble.BaseInheritors
         public override void Awake()
         {
             base.Awake();
-            this._localDropNormal = new Vector3(0, 0, -1);
-            this._localDropOffset = new Vector3(0, 0, -0.0698f);
-            _type = ItemType.Lantern;
-        }
+            _localDropNormal = new Vector3(0, 0, -1);
+            _localDropOffset = new Vector3(0, 0, -0.0698f);
 
-        /**
-         * Just gives the name
-         */
-        public override string GetDisplayName()
-        {
-            return TranslationHandler.GetTranslation("Toxin Injector", TranslationHandler.TextType.UI);
+            _type = DeepBramble.InjectorItemType;
+
+            // UI translation
+            DisplayName = "Toxin Injector";
+
+            PickupAudio = AudioType.Lantern_Pickup;
+            DropAudio = AudioType.Lantern_Drop;
+            SocketAudio = AudioType.Lantern_Insert;
+            UnsocketAudio = AudioType.Lantern_Remove;
         }
 
         /**

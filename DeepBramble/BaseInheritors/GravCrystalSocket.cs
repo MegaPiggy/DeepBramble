@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Components.Props;
+using UnityEngine;
 
 namespace DeepBramble.BaseInheritors
 {
-    class GravCrystalSocket : OWItemSocket
+    public class GravCrystalSocket : NHItemSocket
     {
         private DirectionalForceVolume[] gravFields = null;
         private ParticleSystem[] gravParticles = null;
@@ -13,6 +14,7 @@ namespace DeepBramble.BaseInheritors
         public override void Awake()
         {
             _socketTransform = transform;
+            _acceptableType = DeepBramble.GravityCrystalItemType;
 
             base.Awake();
         }
@@ -49,17 +51,6 @@ namespace DeepBramble.BaseInheritors
         }
 
         /**
-         * Only accepts items that are gravity crystal items
-         * 
-         * @param item The item to be checked
-         * @return True if it is acceptable, false otherwise
-         */
-        public override bool AcceptsItem(OWItem item)
-        {
-            return item is GravCrystalItem;
-        }
-
-        /**
          * When something gets slotted in, need to enable the gravity field
          * 
          * @param item The item that was placed
@@ -67,7 +58,7 @@ namespace DeepBramble.BaseInheritors
         public override bool PlaceIntoSocket(OWItem item)
         {
             bool ret = base.PlaceIntoSocket(item);
-            if (ret && (item as GravCrystalItem).intact)
+            if (ret && item is GravCrystalItem gravCrystal && gravCrystal.intact)
             {
                 foreach (DirectionalForceVolume field in gravFields)
                     field.gameObject.SetActive(true);

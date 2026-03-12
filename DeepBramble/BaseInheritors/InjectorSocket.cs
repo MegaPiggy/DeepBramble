@@ -1,6 +1,8 @@
-﻿namespace DeepBramble.BaseInheritors
+﻿using NewHorizons.Components.Props;
+
+namespace DeepBramble.BaseInheritors
 {
-    public class InjectorSocket : OWItemSocket
+    public class InjectorSocket : NHItemSocket
     {
 
         /**
@@ -9,19 +11,9 @@
         public override void Awake()
         {
             _socketTransform = transform.Find("guide_transform");
+            _acceptableType = DeepBramble.InjectorItemType;
 
             base.Awake();
-        }
-
-        /**
-         * Only accepts items that are injectors
-         * 
-         * @param item The item to be checked
-         * @return True if it is acceptable, false otherwise
-         */
-        public override bool AcceptsItem(OWItem item)
-        {
-            return item is InjectorItem;
         }
 
         /**

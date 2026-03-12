@@ -1,5 +1,6 @@
 ﻿using OWML.ModHelper;
 using OWML.Common;
+using OWML.Utils;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
@@ -32,6 +33,10 @@ namespace DeepBramble
         public static DeepBramble instance;
         private static bool manualLoadEnd = false;
         private static bool useDebugKeybinds = false;
+
+        //Enums
+        public static readonly ItemType GravityCrystalItemType = EnumUtils.Create<ItemType>("GravCrystal");
+        public static readonly ItemType InjectorItemType = EnumUtils.Create<ItemType>("ToxinInjector");
 
         /**
          * Do NH setup stuff and patch certain methods
