@@ -31,6 +31,9 @@
         <None Include="manifest.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="title-screen.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
         <None Update="addon-manifest.json">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>

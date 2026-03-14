@@ -1,7 +1,6 @@
 {
 	"enabled": true,
 	"settings": {
-		"Vanilla Title Screen": false,
 		"Debug Keybinds (DON'T ENABLE)": false
 	}
 }

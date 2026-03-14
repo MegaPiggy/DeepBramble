@@ -50,7 +50,6 @@ namespace DeepBramble
             NewHorizonsAPI.LoadConfigs(this);
 
             //Load assetbundles
-            TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
             signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
@@ -58,7 +57,7 @@ namespace DeepBramble
             signalBodyObject.AddComponent<SignalBody>();
 
             //Do title screen stuff
-            TitleScreenHelper.FirstTimeTitleEdits();
+            TitleScreenHelper.Initialize();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 debugPrint("Detecting scene load");
@@ -69,7 +68,6 @@ namespace DeepBramble
                     manualLoadEnd = false;
                 if (loadScene == OWScene.TitleScreen)
                 {
-                    TitleScreenHelper.FirstTimeTitleEdits();
                     ForgottenLocator.inBrambleSystem = false;
                 }
             };
@@ -110,36 +108,36 @@ namespace DeepBramble
          */
         private void UpdateSystemFlag(String s)
         {
-            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble") && TitleScreenHelper.titleEffectsObject == null;
+            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble") && LoadManager.GetCurrentScene() != OWScene.TitleScreen;
         }
 
         /**
          * When a star system finishes loading, check if it's the bramble system
          * If it is the bramble system, do a series of setup steps
          * 
-         * @param s The string that's the name of the loaded system? I think? Not used in this method.
+         * @param s The string that's the name of the loaded system.
          */
         private void PrepSystem(String s)
         {
             //Do this stuff no matter where we are
             ForgottenLocator.blockableSockets = new List<BlockableQuantumSocket>();
             DomesticFishController.Reset();
-            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble") && TitleScreenHelper.titleEffectsObject == null;
+            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble");
 
             //Do this stuff if we're in the bramble system
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
+            if (s.Equals("DeepBramble"))
             {
                 DBSystemHelper.FixDeepBramble();
             }
 
             //Do this stuff if we're in the hearthian system
-            else if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
+            else if(s.Equals("SolarSystem"))
             {
                 BaseSystemHelper.FixBaseSystem();
             }
 
             //Do this stuff if we're in the eye system
-            else if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
+            else if (s.Equals("EyeOfTheUniverse"))
             {
                 EyeSystemHelper.FixEyeSystem();
             }
@@ -317,9 +315,6 @@ namespace DeepBramble
          */
         public override void Configure(IModConfig config)
         {
-            //Whether to use the vanilla title screen or not
-            TitleScreenHelper.SetVanillaTitle(config.GetSettingsValue<bool>("Vanilla Title Screen"));
-
             //Whether to use the vanilla title screen or not
             useDebugKeybinds = config.GetSettingsValue<bool>("Debug Keybinds (DON'T ENABLE)");
         }
