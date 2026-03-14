@@ -36,11 +36,13 @@
 			]
 		}
 	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"Base": {
 		"groundSize": 0,
 		"surfaceSize": 175,
-		"surfaceGravity": 5,
-		"hasMapMarker": true
+		"surfaceGravity": 5
 	},
 	"Orbit": {
 		"staticPosition": {

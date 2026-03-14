@@ -35,11 +35,13 @@
       ]
     }
   },
+  "MapMarker": {
+    "enabled": true
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 150,
-    "surfaceGravity": 9,
-    "hasMapMarker": true
+    "surfaceGravity": 9
   },
   "AmbientLights": [
     {

@@ -8,11 +8,13 @@
       "remove": true
     }
   },
+  "MapMarker": {
+    "enabled": false
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 26,
-    "surfaceGravity": 2,
-    "hasMapMarker": false
+    "surfaceGravity": 2
   },
   "AmbientLights": [
     {

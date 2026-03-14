@@ -20,11 +20,13 @@
       "scale": 3
     }
   },
+  "MapMarker": {
+    "enabled": false
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 0,
     "surfaceGravity": 0,
-    "hasMapMarker": false,
     "showMinimap": false
   },
   "Orbit": {

@@ -9,11 +9,13 @@
       "remove": true
     }
   },
+  "MapMarker": {
+    "enabled": true
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 103,
-    "surfaceGravity": 4,
-    "hasMapMarker": true
+    "surfaceGravity": 4
   },
   "Orbit": {
     "staticPosition": {
