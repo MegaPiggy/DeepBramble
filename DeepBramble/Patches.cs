@@ -1118,23 +1118,8 @@ namespace DeepBramble
         {
             if(EyeSystemHelper.doEyeStuff)
             {
-                __instance._instrumentZones[6].SetActive(true);
                 __instance.transform.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/forest_new_ground/actual_ground/ditylum_patch")
                     .gameObject.SetActive(false); //Need to also deactivate the hole cover
-            }
-        }
-
-        /**
-         * When somebody else starts fading, ditylum should as well
-         */
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(TravelerEyeController), nameof(TravelerEyeController.OnCrossfadeToFinale))]
-        public static void FadeDitylum()
-        {
-            if(EyeSystemHelper.ditySource != null && !EyeSystemHelper.dityFadeStarted)
-            {
-                EyeSystemHelper.dityFadeStarted = true;
-                EyeSystemHelper.ditySource.FadeIn(5);
             }
         }
 

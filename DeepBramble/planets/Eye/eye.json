@@ -6,6 +6,7 @@
   "Props": {
     "details": [
       {
+        "activationCondition": "MET_DITYLUM",
         "assetBundle": "assetbundles/eye_bundle",
         "path": "Assets/Prefabs/eye/dree_exhibit.prefab",
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Geo_Observatory/ObservatoryPivot",
@@ -23,52 +24,10 @@
         }
       },
       {
+        "activationCondition": "MET_DITYLUM",
         "assetBundle": "assetbundles/eye_bundle",
         "path": "Assets/Prefabs/eye/forest_new_ground.prefab",
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb",
-        "isRelativeToParent": true,
-        "keepLoaded": true
-      },
-      {
-        "assetBundle": "assetbundles/eye_bundle",
-        "path": "Assets/Prefabs/eye/DitylumZone.prefab",
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones",
-        "isRelativeToParent": true,
-        "keepLoaded": true,
-        "position": {
-          "x": -11.96,
-          "y": 0,
-          "z": -35.04
-        }
-      },
-      {
-        "assetBundle": "assetbundles/eye_bundle",
-        "path": "Assets/Prefabs/eye/Ditylum.prefab",
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
-        "isRelativeToParent": true,
-        "keepLoaded": true,
-        "position": {
-          "x": 0.58,
-          "y": 0.0839994,
-          "z": -3.529785
-        },
-        "rotation": {
-          "x": 0,
-          "y": -7.52,
-          "z": 0
-        }
-      },
-      {
-        "assetBundle": "assetbundles/eye_bundle",
-        "path": "Assets/Prefabs/eye/DitylumFinaleAudioSource.prefab",
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InflationController",
-        "isRelativeToParent": true,
-        "keepLoaded": true
-      },
-      {
-        "assetBundle": "assetbundles/eye_bundle",
-        "path": "Assets/Prefabs/eye/FCAltTravelerSockets.prefab",
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
         "isRelativeToParent": true,
         "keepLoaded": true
       }
@@ -79,6 +38,7 @@
         "xmlFile": "planets/Eye/EyeGraveText.xml",
         "type": "wall",
         "seed": 84634,
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/DitylumZone",
         "position": {
           "x": -11.95348,
           "y": -147.585,
@@ -112,38 +72,9 @@
           "y": 0.9016539,
           "z": 6007.77
         }
-      },
-      {
-        "rename": "DitylumDialogue",
-        "radius": 0.7,
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
-        "isRelativeToParent": true,
-        "xmlFile": "planets/Eye/DitylumDialogue.xml",
-        "position": {
-          "x": 0,
-          "y": 2,
-          "z": 0
-        }
       }
     ],
     "signals": [
-      {
-        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
-        "isRelativeToParent": true,
-        "audio": "assets/Audio/ditylum_singing.wav",
-        "detectionRadius": 0.01,
-        "frequency": "Traveler",
-        "onlyAudibleToScope": false,
-        "minDistance": 20,
-        "maxDistance": 5000,
-        "volume": 0.2,
-        "name": "Ditylum",
-        "position": {
-          "x": 0,
-          "y": 2,
-          "z": 0
-        }
-      },
       {
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/DitylumZone",
         "isRelativeToParent": true,
@@ -159,6 +90,79 @@
           "z": 0
         }
       }
+    ]
+  },
+
+  "EyeOfTheUniverse": {
+    "eyeTravelers": [
+      {
+        "id": "Ditylum",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+        "startPlayingCondition": "IsDitylumPlaying",
+        "requiredPersistentCondition": "MET_DITYLUM",
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/Ditylum.prefab",
+        "isRelativeToParent": true,
+        "keepLoaded": true,
+        "position": {
+          "x": 0.58,
+          "y": 0.0839994,
+          "z": -3.529785
+        },
+        "rotation": {
+          "x": 0,
+          "y": -7.52,
+          "z": 0
+        },
+        "finaleAudio": "assets/Audio/final_fadeout.ogg",
+        "signal": {
+          "isRelativeToParent": true,
+          "audio": "assets/Audio/ditylum_singing.wav",
+          "detectionRadius": 0,
+          "identificationRadius": 10,
+          "frequency": "Traveler",
+          "onlyAudibleToScope": false,
+          "minDistance": 20,
+          "maxDistance": 5000,
+          "volume": 0.2,
+          "name": "Ditylum",
+          "position": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          }
+        },
+        "dialogue": {
+          "rename": "DitylumDialogue",
+          "radius": 0.7,
+          "isRelativeToParent": true,
+          "xmlFile": "planets/Eye/DitylumDialogue.xml",
+          "position": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "instrumentZones": [
+      {
+        "id": "Ditylum",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones",
+        "deactivationCondition": "EyeDitylumGather",
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/DitylumZone.prefab",
+        "isRelativeToParent": true,
+        "keepLoaded": true,
+        "position": {
+          "x": -11.96,
+          "y": 0,
+          "z": -35.04
+        }
+      }
+    ],
+    "quantumInstruments": [
+      // Done manually
     ]
   }
 }
