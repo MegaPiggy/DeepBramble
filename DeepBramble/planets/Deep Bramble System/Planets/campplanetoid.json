@@ -522,7 +522,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.3015,
               "y": 1.3957
@@ -642,7 +655,20 @@
             "zRotation": 0.7089291
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0,
               "y": 1.603635

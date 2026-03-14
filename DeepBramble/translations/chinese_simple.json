@@ -1,5 +1,5 @@
 {
-//本翻译补丁经检查没有任何问题。
+  //本翻译补丁经检查没有任何问题。
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
   "DialogueDictionary": {
 
@@ -1232,13 +1232,16 @@
     "SCOUT RECALL COMPLETED": "探测器召回完成",
 
     "Signal: ": "信号：",
-    "<!> Untranslated Dree writing <!>": "<!>未翻译的德瑞文字<!>",
 
     "Forgotten Castaways": "Forgotten Castaways",
 
     "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "你们被一颗遥远的恒星吞噬了。",
     "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "至少你不是唯一一个沦为种族最后一员的存在。",
     "THE BRAMBLE CLAIMS ANOTHER": "荆棘再次夺走了一些生命。"
+  },
+
+  "OtherDictionary": {
+    "Dree": "德瑞"
   }
 }
 

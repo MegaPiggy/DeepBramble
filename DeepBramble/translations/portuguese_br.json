@@ -1,9 +1,9 @@
- {
+{
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
   "DialogueDictionary": {
-  
-    //ernesto
-    "ernesto": "ernesto",
+
+    //Ernesto
+    "Ernesto": "Ernesto",
     "Oh, hey, sorry about trying to bite you to death there, got a bit caught up in the mob mentality.": "Oh, olá, desculpa por tentar mastigar você até a morte ali, acabei me deixando levar um pouco pela mentalidade de NPC.",
     "Was there something you wanted to talk about?": "Tinha algo que você gostaria de falar sobre?",
     "If I come back on the next loop, are you gonna try and bite me again?": "Se eu voltar aqui no próximo loop, você vai tentar me morder de novo?",
@@ -941,7 +941,7 @@
     "SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.": "SENNETTI: Nós tentamos, mas a cápsula no lado oposto da nave está completamente bloqueada. Não conseguimos alcançá-la.",
     "NESIA: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.": "NESIA: Infelizmente, isso também parece ser verdade para a cápsula neste lado. Parece que estamos presos.",
     "OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.": "OKALIS: Como nós iremos escapar deste lugar? O <![CDATA[<color=orange>Hospedeiro</color>]]> é a única fonte de oxigênio que temos, então não podemos simplesmente voar para longe dele.",
-    "AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.": "AZOLLA: Apesar da aparência assustadora deste ambiente, não parece que estamos em perigo imediato. Devemos nos reagrupar na ponte e elaborar um plano a partir daí.",
+    "AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.": "AZOLLA: Apesar da aparência assustadora deste ambiente, não parece que estamos em perigo imediato. Devemos nos reagrupar na ponte e elaborar um plano a partir daí."
   },
 
   "ShipLogDictionary": {
@@ -1234,13 +1234,16 @@
     "SCOUT RECALL COMPLETED": "RETORNO DO BATEDORZINHO COMCLUIDO",
 
     "Signal: ": "Sinal: ",
-    "<!> Untranslated Dree writing <!>": "<!> Escrita Dree não traduzida <!>",
 
     "Forgotten Castaways": "Forgotten Castaways",
 
     "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "VOCÊS FORAM CONSUMIDOS POR UMA ESTRELA ESTRANGEIRA",
     "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "PELO MENOS VOCÊ NÃO É O ÚNICO QUE É O ÚLTIMO DE SUA ESPÉCIE",
     "THE BRAMBLE CLAIMS ANOTHER": "O ABROLHO TOMA OUTRO."
+  },
+
+  "OtherDictionary": {
+    "Dree": "Dree"
   }
 }
 

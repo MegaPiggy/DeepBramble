@@ -674,7 +674,20 @@
         },
         "arcInfo": [
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.0873,
               "y": -0.2236
@@ -691,7 +704,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -2.380053,
               "y": 1.461997
@@ -699,7 +725,20 @@
             "zRotation": 290.9642
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -1.4082,
               "y": 1.8056
@@ -716,7 +755,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.0583,
               "y": 3.457012

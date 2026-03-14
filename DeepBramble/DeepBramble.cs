@@ -25,7 +25,6 @@ namespace DeepBramble
         public INewHorizons NewHorizonsAPI = null;
         public IAchievements AchievementsAPI = null;
         public static float recallTimer = -999;
-        public static Material textMat = null;
         public static GameObject signalBodyObject= null;
 
         //Only needed for debug
@@ -51,7 +50,6 @@ namespace DeepBramble
 
             //Load assetbundles
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
-            textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
             signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
             signalBodyObject.DontDestroyOnLoad<GameObject>();
             signalBodyObject.AddComponent<SignalBody>();

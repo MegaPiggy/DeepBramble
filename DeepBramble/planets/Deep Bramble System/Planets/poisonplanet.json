@@ -102,7 +102,20 @@
 				},
 				"arcInfo": [
 					{
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": 1.556002,
 							"y": 0
@@ -110,7 +123,20 @@
 						"zRotation": 358.6752
 					},
 					{
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": 0.8014536,
 							"y": 0
@@ -119,7 +145,20 @@
 					},
 					{
 						"mirror": true,
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": 0.01997143,
 							"y": 1.9205
@@ -128,7 +167,20 @@
 					},
 					{
 						"mirror": true,
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": -0.6156471,
 							"y": 0
@@ -137,7 +189,20 @@
 					},
 					{
 						"mirror": true,
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": -1.480545,
 							"y": 1.93491
@@ -145,7 +210,20 @@
 						"zRotation": 180
 					},
 					{
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": -2.24018,
 							"y": 0
@@ -153,7 +231,20 @@
 						"zRotation": 0
 					},
 					{
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": -3.044696,
 							"y": 0
@@ -284,7 +375,20 @@
 					},
 					{
 						"mirror": true,
-						"type": "stranger",
+						"type": "custom",
+						"customLanguageName": "Dree",
+						"customTextImage": "Assets/dreetext.png",
+						"legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+						"overrideTranslatedColor": {
+							"r": 88,
+							"g": 77,
+							"b": 136
+						},
+						"overrideUnreadColor": {
+							"r": 134,
+							"g": 61,
+							"b": 255
+						},
 						"position": {
 							"x": 0.9231,
 							"y": 1.1342

@@ -5,6 +5,16 @@
 	"mapRestricted": true,
 	"enableTimeLoop": true,
 	"factRequiredForWarp": "WARP_TO_DB_FACT",
+	"conditionalChecks": [
+		{
+			"check": {
+				"allFactsRevealed": [ "TRANSLATOR_UPGRADE_FACT_FC" ]
+			},
+			"then": {
+				"setPersistentConditions": [ "TRANSLATOR_UPGRADE_FC" ]
+			}
+		}
+	],
 	"initialReveal": [ "ENTRY_FACT_FC" ],
 	"curiosities": [
 		{

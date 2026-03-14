@@ -117,7 +117,20 @@
         },
         "arcInfo": [
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "zRotation": 338.8304
           }
         ]
@@ -171,7 +184,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.2616088,
               "y": 1.030959
@@ -222,7 +248,20 @@
             "zRotation": 11.75356
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.4585101,
               "y": 0.5855427
@@ -240,7 +279,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.9558585,
               "y": 1.564932
@@ -248,7 +300,20 @@
             "zRotation": 45.90145
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 1.429884,
               "y": -0.6647888
@@ -290,7 +355,20 @@
             "zRotation": 45
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.7644168,
               "y": 0.01589415
@@ -299,7 +377,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -1.378606,
               "y": 1.151263
@@ -333,7 +424,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.2097742,
               "y": 0.4071505
@@ -349,7 +453,20 @@
             "zRotation": 9.242743
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.3105374,
               "y": 1.759817
@@ -358,7 +475,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 1.338553,
               "y": 1.779285
@@ -375,7 +505,20 @@
             "zRotation": 58.93919
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -1.542723,
               "y": 0.2827123
@@ -419,7 +562,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.1074582,
               "y": 0.7155189
@@ -437,7 +593,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": -0.1216335,
               "y": 2.328888
@@ -445,7 +614,20 @@
             "zRotation": 339.6232
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.4745357,
               "y": 1.263746
@@ -471,7 +653,20 @@
         "arcInfo": [
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0,
               "y": 0
@@ -487,7 +682,20 @@
             "zRotation": 333.4557
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.6176109,
               "y": 1.369239
@@ -512,7 +720,20 @@
           },
           {
             "mirror": true,
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 1.946395,
               "y": 1.284701
@@ -546,7 +767,20 @@
             "zRotation": 357.38
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.5685322,
               "y": 0.5555753
@@ -562,7 +796,20 @@
             "zRotation": 77.0459
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 0.4700495,
               "y": 2.037659
@@ -578,7 +825,20 @@
             "zRotation": 314.3008
           },
           {
-            "type": "stranger",
+            "type": "custom",
+            "customLanguageName": "Dree",
+            "customTextImage": "Assets/dreetext.png",
+            "legiblePersistentCondition": "TRANSLATOR_UPGRADE_FC",
+            "overrideTranslatedColor": {
+              "r": 88,
+              "g": 77,
+              "b": 136
+            },
+            "overrideUnreadColor": {
+              "r": 134,
+              "g": 61,
+              "b": 255
+            },
             "position": {
               "x": 1.974511,
               "y": 1.516357
