@@ -52,9 +52,12 @@
         },
         "scale": 1,
         "alignRadial": false
-      },
+      }
+    ],
+    "campfires": [
       {
-        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Prefab_HEA_Campfire",
+        "rename": "campfire",
+        "initialState": "unlit",
         "position": {
           "x": 0,
           "y": 75,
@@ -733,7 +736,7 @@
     "entryLocation": [
       {
         "id": "CAMP_ENTRY_FC",
-        "parentPath": "Sector/Prefab_HEA_Campfire",
+        "parentPath": "Sector/campfire",
         "isRelativeToParent": true,
         "position": {
           "x": 0,

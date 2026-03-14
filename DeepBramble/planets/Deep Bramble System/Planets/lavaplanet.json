@@ -82,9 +82,12 @@
           "y": 0,
           "z": 0
         }
-      },
+      }
+    ],
+    "campfires": [
       {
-        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Prefab_HEA_Campfire",
+        "rename": "campfire",
+        "initialState": "unlit",
         "position": {
           "x": 243.0434,
           "y": 8.612677,
