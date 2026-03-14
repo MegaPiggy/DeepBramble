@@ -368,6 +368,23 @@
         },
         "frequency": "Echolocation Tones",
         "name": "Warped Echolocation"
+      },
+      {
+        "rename": "Large_Language_Signal",
+        "audio": "NomaiEscapePodDistressSignal_LP",
+        "volume": 2,
+        "parentPath": "Sector/Large Language Node",
+        "sourceRadius": 67,
+        "identificationRadius": 224,
+        "detectionRadius": 300,
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frequency": "Nomai Trailmarkers",
+        "name": "Large Language Marker"
       }
     ],
     "entryLocation": [
