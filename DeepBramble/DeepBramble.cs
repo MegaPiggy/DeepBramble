@@ -34,8 +34,8 @@ namespace DeepBramble
         private static bool useDebugKeybinds = false;
 
         //Enums
-        public static readonly ItemType GravityCrystalItemType = EnumUtils.Create<ItemType>("GravCrystal");
-        public static readonly ItemType InjectorItemType = EnumUtils.Create<ItemType>("ToxinInjector");
+        public static readonly ItemType GravityCrystalItemType = EnumUtils.Create<ItemType>("DeepBrambleGravCrystal");
+        public static readonly ItemType InjectorItemType = EnumUtils.Create<ItemType>("DeepBrambleToxinInjector");
 
         /**
          * Do NH setup stuff and patch certain methods
